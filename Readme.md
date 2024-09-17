@@ -10,6 +10,7 @@ Machine learning 部分在 colab 上進行 model 建構並 traning，模型部�
 ![Traning過程](./img/traning.png)
 ![Model Accuracy](./yourLocation/yourFile.png)
 ![測試集準確率預測](./img/test_acc.png)
+
 ## Project 安裝指南
 
-1.安裝相關套件：`pip install -r requirements.txt`（或其他安裝步驟） 2.申請 LINE BOT：`https://developers.line.biz/en/`(請存下 LINE_CHANNEL_ACCESS_TOKEN 及 LINE_CHANNEL_SECRET) 3.建立.env 檔案並將 LINE_CHANNEL_ACCESS_TOKEN 及 LINE_CHANNEL_SECRET 輸入 4.使用 Ngrok 搭建臨時通道：`https://dashboard.ngrok.com/` 5.於 LINE bot 中設定 Webhook 網址：`https://上一部獲取的網址/callback/`
+1.安裝相關套件：`pip install -r requirements.txt`（或其他安裝步驟） <br> 2.申請 LINE BOT：`https://developers.line.biz/en/`(請存下 LINE_CHANNEL_ACCESS_TOKEN 及 LINE_CHANNEL_SECRET) <br> 3.建立.env 檔案並將 LINE_CHANNEL_ACCESS_TOKEN 及 LINE_CHANNEL_SECRET 輸入 <br> 4.使用 Ngrok 搭建臨時通道：`https://dashboard.ngrok.com/` <br> 5.於 LINE bot 中設定 Webhook 網址：`https://上一部獲取的網址/callback/`
