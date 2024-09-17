@@ -1,0 +1,7 @@
+Django==5.0.7
+line-bot-sdk==3.13.0
+pillow==10.4.0
+tensorflow==2.16.2
+keras==3.5.0
+python-decouple==3.8
+numpy==1.23.5
