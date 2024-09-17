@@ -48,11 +48,13 @@ def handle_image_message(event):
 
     # 模型預測
     prediction = model.predict(preprocessed_image)
-    result = "這是一隻狗!" if prediction[0][0] > 0.5 else "這是一隻貓!"
+    result = "這不是一隻貓!" if prediction[0][0] > 0.5 else "這是一隻貓!"
+    
 
     # 回應用戶
     line_bot_api.reply_message(
         event.reply_token,
         TextSendMessage(text=result)
     )
+    
     
